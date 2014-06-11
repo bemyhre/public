@@ -11,7 +11,7 @@ View.prototype = {
 	},
 
 	getList: function(){
-		return document.querySelector(".slider")
+		return document.querySelector(".carasoul ul #image-container")
 	},
 
 	removeFirst: function(list, itemToMove){
