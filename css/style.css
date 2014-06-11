@@ -1,0 +1,44 @@
+body{
+	background: #edece9;
+}
+
+.slider{
+	list-style-type: none;
+	position:absolute;
+	left: 10%;
+}
+
+li {
+	display: inline;
+
+}
+
+.slider li img {
+
+	padding-bottom: 50px;
+}
+
+#slider {
+	height: 212px;
+	background: #edece9;
+	position: relative;
+	overflow: hidden;
+	padding-left: 10px;
+}
+
+.previous, .next {
+	position: absolute;
+	display: block;
+
+}
+
+.previous {
+	top: 110px;
+
+}
+
+.next {
+	top: 110px;
+	right:0;
+
+}
