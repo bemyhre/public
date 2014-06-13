@@ -97,7 +97,21 @@ li {
 	display:none;
 }
 
-
+.project-details .star-fours {
+	display:none;
+}
+.project-details .twitter {
+	display:none;
+}
+.project-details .linkedin {
+	display:none;
+}
+.project-details .github {
+	display:none;
+}
+.project-details .beard {
+	display:none;
+}
 /*.slider{
 	list-style-type: none;
 	position:absolute;
