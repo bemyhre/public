@@ -18,6 +18,7 @@ h4 {
 
 .header-strip{
 	text-align: center;
+
 }
 
 ul {
@@ -33,14 +34,25 @@ li {
 
 }
 
+/*#codefusion-visibile {
+	font-size: 2.0em;
+	display: none;
+}
+*/
 
 .project-details {
 	text-align: center;
 	color: #8B8B8B;
 	font-size: .8em;
-	margin-bottom: 20px;
+	padding-left: 320px;
+	padding-right: 320px;
+	
+	width: 639px;
 }
 
+.text{
+	height: 200px;
+}
 .carasoul #image-container img {
 	border-radius: 150px;
 	margin-left: 5px;
@@ -78,6 +90,10 @@ li {
 }
 
 .project-details .code-fusion {
+	display:none;
+}
+
+.project-details .bacon {
 	display:none;
 }
 
