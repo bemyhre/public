@@ -1,0 +1,7 @@
+function descriptionStrip() {
+	
+}
+
+descriptionStrip.prototype = {
+
+}

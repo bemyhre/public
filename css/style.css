@@ -1,0 +1,136 @@
+body{
+	background: #F3F2F0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 4em;
+	margin-bottom: 0px;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+	color: #8B8B8B;
+	margin-top: 0px;
+}
+
+.header-strip{
+	text-align: center;
+
+}
+
+ul {
+	padding: 0px;
+
+}
+
+
+
+li {
+	display: inline;
+	float: left;
+
+}
+
+/*#codefusion-visibile {
+	font-size: 2.0em;
+	display: none;
+}
+*/
+
+.project-details {
+	text-align: center;
+	color: #8B8B8B;
+	font-size: .8em;
+	padding-left: 320px;
+	padding-right: 320px;
+	
+	width: 639px;
+}
+
+.text{
+	height: 200px;
+}
+.carasoul #image-container img {
+	border-radius: 150px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #A29CF6;
+
+}
+
+.carasoul #image-container img:hover {
+	border: 5px solid #A29CF6;
+}
+
+#image-container {
+	height: 210px;
+	width: 1055px;
+	overflow: hidden;
+
+}
+
+.previous, .next {
+	position: relative;
+	display: block;
+
+}
+
+.previous {
+	top: 80px;
+	text-align: right;
+
+}
+
+.next{
+	top: 80px;
+	text-align: left;
+}
+
+.project-details .code-fusion {
+	display:none;
+}
+
+.project-details .bacon {
+	display:none;
+}
+
+
+/*.slider{
+	list-style-type: none;
+	position:absolute;
+	left: 10%;
+}
+
+
+.slider li img {
+
+	padding-bottom: 50px;
+}
+
+#slider {
+	height: 212px;
+	background: #edece9;
+	position: relative;
+	overflow: hidden;
+	padding-left: 10px;
+}
+
+.previous, .next {
+	position: absolute;
+	display: block;
+
+}
+
+.previous {
+	top: 110px;
+
+}
+
+.next {
+	top: 110px;
+	right:0;*/
+
+}
