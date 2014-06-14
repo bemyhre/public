@@ -68,6 +68,12 @@ li {
 
 }
 
+.clicked {
+	-webkit-transform:translateX(-200px);
+	-webkit-transition-property: translateX;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-timing-function: linear;	
+}
 
 .previous, .next {
 	position: relative;
