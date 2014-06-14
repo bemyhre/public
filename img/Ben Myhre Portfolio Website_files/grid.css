@@ -1,4 +1,4 @@
-/*/*
+/*
  Width: 1000px
  # Columns : 12 
  Column width: 65px
@@ -45,4 +45,4 @@
 
 
 
-.clear{clear:both;display:bloc*/k;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}

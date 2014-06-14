@@ -29,10 +29,10 @@ Controller.prototype = {
     var list = this.display.getList()
     var itemToMove = this.display.getFirst(list)
 
-    // var image = this.display.clickEffectOn(list)
+    var image = this.display.clickEffectOn(list)
 
-    this.display.removeFirst(list, itemToMove)
-    this.display.appendToEnd(list,itemToMove)
+    setTimeout(this.display.removeFirst(list, itemToMove, image),1000)
+    //this.display.appendToEnd(list,itemToMove)
   },
 
   moveAhead: function(){

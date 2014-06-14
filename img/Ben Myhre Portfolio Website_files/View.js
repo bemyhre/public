@@ -15,12 +15,9 @@ View.prototype = {
 	},
 
 	removeFirst: function(list, itemToMove, image){
-		list.removeChild(itemToMove)
-	},
-
-	toggleStuff: function(list, itemToMove, image){
-		$(list).toggleClass('clicked')
-		list.removeChild(itemToMove)
+		//removed=list.removeChild(itemToMove)
+		//console.log(removed)
+		$(list).toggleClass('clicked');
 	},
 
 	appendToEnd: function(list, itemToMove){
@@ -45,15 +42,17 @@ View.prototype = {
 	    list.insertBefore(last,item)
 	},
 
-	// clickEffectOn: function(list){
-	// 	original=$(list).find("img:first").attr("src")
-	// 	$(list).find("img:first").attr("src","img/blank_pic.jpg")
-	// 	$(list).toggleClass('clicked');
-	// 	return original
-	// 	//$("#image-container").css("margin-left","200px");
-	// 	//setTimeout(function(){$(list).toggleClass('clicked')}, 200);
-	// 	//$(list).find("li").css("display","inline");
-	// }
+	clickEffectOn: function(list){
+		original=$(list).find("img:first").attr("src")
+		$(list).find("img:first").attr("src","img/blank_pic.jpg")
+		$(list).toggleClass('clicked');
+		return original
+		//$("#image-container").css("margin-left","200px");
+		//setTimeout(function(){$(list).toggleClass('clicked')}, 200);
+		//$(list).find("li").css("display","inline");
+
+
+	}
 
 }
 
